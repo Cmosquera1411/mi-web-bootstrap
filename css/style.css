@@ -123,3 +123,45 @@ footer {
   background-color: #343a40;
   color: white;
 }
+.hero {
+  background-image: url('../img/portada.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  max-width: 500px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+}
+.card {
+  border-radius: 15px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #1E3A5F;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3A6EA5;
+}
