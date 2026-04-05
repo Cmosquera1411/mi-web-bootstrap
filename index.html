@@ -4,80 +4,119 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Mi Blog</title>
-  
- 
+  <title>Academia de Fútbol</title>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="css/style.css">
 
-  
+  <!-- Fuente -->
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <div class="container">
+
+  <!-- HEADER -->
   <header class="py-3 text-center">
-    <h1>Mi Blog Personal</h1>
-    <p class="text-muted">Web hecha con Bootstrap 5</p>
+    <h1>Academia de Fútbol</h1>
+    <p class="text-muted">Entrenamiento profesional para jóvenes jugadores</p>
   </header>
 
-  
+  <!-- MENÚ -->
   <nav class="nav justify-content-center mb-4">
     <a class="nav-link" href="#">Inicio</a>
-    <a class="nav-link" href="#">Sobre mí</a>
-    <a class="nav-link" href="formulario.html">Contacto</a>
+    <a class="nav-link" href="#">Instalaciones</a>
+    <a class="nav-link" href="formulario.html">Inscripción</a>
   </nav>
 
-  
-  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+  <!-- PORTADA -->
+  <div class="hero">
+  <div class="hero-text">
+    <h1>Academia de Fútbol</h1>
+    <p>Descubre un espacio donde la pasión por el fútbol se une con la excelencia.</p>
+  </div>
+</div>
     <div class="col-md-6">
-      <h1 class="display-5">Bienvenido a mi web</h1>
-      <p class="lead">Este es mi proyecto para la práctica de diseño web.</p>
+      <h1 class="display-5">Bienvenido a nuestra academia</h1>
+      <p class="lead">Formamos a futuros futbolistas con entrenamiento de calidad.</p>
     </div>
   </div>
-<img src="img/portada.jpg" class="img-fluid rounded mt-3">
 
-  <div class="row mb-2">
+  <!-- IMAGEN PORTADA -->
+  <img src="img/portada.jpg" class="img-fluid rounded mb-4">
+
+  <!-- INSTALACIONES -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Instalaciones</h2>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <img src="img/campo.jpg" class="img-fluid rounded mb-3">
+        <p class="text-center">Campo de entrenamiento</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="img/gimnasio.jpg" class="img-fluid rounded mb-3">
+        <p class="text-center">Gimnasio</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="img/equipo.jpg" class="img-fluid rounded mb-3">
+        <p class="text-center">Equipo y alumnos</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- POSTS -->
+  <div class="row mt-5">
 
     <div class="col-md-6">
       <div class="p-4 border rounded">
-        <h3>Post 1</h3>
+        <h3>Entrenamientos</h3>
         <img src="img/post.jpg" class="img-fluid mb-2">
-        <p>Contenido de ejemplo del primer post.</p>
+        <p>Sesiones adaptadas a cada nivel para mejorar técnica y físico.</p>
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="p-4 border rounded">
-        <h3>Post 2</h3>
-        <p>Contenido de ejemplo del segundo post.</p>
+        <h3>Competición</h3>
+        <img src="img/post.jpg" class="img-fluid mb-2">
+        <p>Participación en torneos para desarrollar experiencia real.</p>
       </div>
     </div>
 
   </div>
 
-  
-  <div class="row">
+  <!-- CONTENIDO -->
+  <div class="row mt-5">
 
     <div class="col-md-8">
-      <h2>Artículo principal</h2>
-      <p>Este es un texto de ejemplo donde puedes escribir contenido real.</p>
+      <h2>Sobre la academia</h2>
+      <p>Ofrecemos formación integral para jóvenes futbolistas, combinando técnica, táctica y valores deportivos.</p>
     </div>
 
     <div class="col-md-4">
-      <h3>Sobre mí</h3>
-      <p>Soy estudiante y esta es mi web para la práctica.</p>
+      <h3>Contacto</h3>
+      <p>Inscríbete a través del formulario y comienza tu formación con nosotros.</p>
     </div>
 
   </div>
 
 </div>
 
-<footer class="text-center mt-5 p-3 bg-light">
-  <p>© 2026 Mi Web</p>
+<!-- FOOTER -->
+<footer class="text-center mt-5 p-3">
+  <p>© 2026 Academia de Fútbol</p>
 </footer>
+
+<!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
@@ -85,5 +124,6 @@
     console.log("jQuery funcionando");
   });
 </script>
+
 </body>
 </html>
